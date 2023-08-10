@@ -1,0 +1,35 @@
+.confirmed-background {
+  background-color: #331427;
+  margin-bottom: 8vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.active-background {
+  background-color: #132240;
+  margin-bottom: 8vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.recovered-background {
+  background-color: #182829;
+  margin-bottom: 8vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.deceased-background {
+  background-color: #1c1c2b;
+  margin-bottom: 8vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.tested-background {
+  background-color: #230f41;
+  margin-bottom: 8vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.charts-title {
+  margin-bottom: 5vh;
+  color: #cbd5e1;
+  font-size: 30px;
+}

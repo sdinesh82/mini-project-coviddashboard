@@ -1,0 +1,84 @@
+.state-result-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.state-category {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.state-stats-icon {
+  margin-top: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title-s {
+  font-size: 18px;
+  font-weight: 500;
+}
+.red {
+  color: #ff073a;
+}
+.blue {
+  color: #007bff;
+}
+.green {
+  color: #28a745;
+}
+.ash {
+  color: #6c757d;
+}
+.Confirmed-color {
+  color: #ff073a;
+}
+.Active-color {
+  color: #007bff;
+}
+.Recovered-color {
+  color: #28a745;
+}
+.Deceased-color {
+  color: #6c757d;
+}
+
+@media screen and (max-width: 700px) {
+  .state-result-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .state-category {
+    width: 35%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .state-stats-icon {
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .title-s {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,29 @@
+.not-found {
+  background-color: #161625;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.not-found-h {
+  color: #e2e8f0;
+  font-size: 44px;
+  margin-top: 30px;
+}
+.not-found-p {
+  color: #94a3b8;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.button {
+  height: 5vh;
+  width: 15vh;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 18px;
+  border: 0px solid;
+  border-radius: 5px;
+}

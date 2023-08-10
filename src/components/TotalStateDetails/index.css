@@ -1,0 +1,36 @@
+.state {
+  list-style: none;
+}
+.table-di {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  font-weight: 500;
+}
+.deceased {
+  color: #6c757d;
+  font-weight: 500;
+}
+.recovered {
+  color: #28a745;
+  font-weight: 500;
+}
+.active {
+  color: #007bff;
+  font-weight: 500;
+}
+.confirmed {
+  color: #ff073a;
+  font-weight: 500;
+}
+
+.population {
+  color: #94a3b8;
+}
+.state-ut {
+  color: #f1f5f9;
+}
+.link {
+  text-decoration: none;
+  color: #f1f5f9;
+}
